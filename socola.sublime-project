@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.css.map", "*.codekit"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache", ".codekit-cache"
+			],
+			"path": "."
+		}
+	]
+}

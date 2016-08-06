@@ -1,0 +1,75 @@
+@import "../../styles/modules/all";
+
+:host {
+	position: relative;
+	z-index: 0;
+
+	display: block;
+
+	width: 100%; height: 48px;
+	box-shadow: inset 0px -1px 0px 0px rgba(black, 0.12);
+
+	transition: background-color 0.6s;
+	// transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+
+	::content {
+		label, input, textarea {
+			font-size: $font-size-medium;
+		}
+		label, input {
+			line-height: 48px;
+		}
+		label {
+			position: absolute;
+			top: 0; left: 0;
+
+			font-weight: 600;
+			color: rgba(black, 0.54);
+		}
+		input, textarea {
+			display: block;
+			box-shadow: 0px 1px 0 0 transparent,
+						inset 0 -1px 0 0 transparent;
+
+			color: $black-text;
+
+			background-color: transparent;
+			transition: box-shadow 0.2s;
+
+			&:focus {
+				box-shadow: 0px 1px 0 0 $accent-color,
+							inset 0 -1px 0 0 $accent-color;
+			}
+		}
+		input {
+			width: 100%; height: 100%;
+			padding: 0 0 0 72px; // for label
+		}
+		textarea {
+			width: 100%;
+			line-height: 1.6;
+			padding: 14px 0;
+			resize: none;
+		}
+
+		::-webkit-input-placeholder {
+			color: $black-hint;
+		}
+	}
+}
+
+:host(.invalid) {
+	background-color: rgba(#F44336, 0.12);
+}
+
+:host([textarea]) {
+	height: auto;
+}
+
+:host([no-label]) {
+	::content {
+		input {
+			padding-left: 0;
+		}
+	}
+}

@@ -1,0 +1,64 @@
+@import "../../styles/modules/all";
+
+:host {
+	position: relative;
+	display: inline-block;
+
+	font-size: $font-size-medium;
+	color: $black-secondary;
+
+	paper-ripple {
+		color: $primary-color;
+	}
+
+	::content input[type="radio"] {
+		display: none;
+
+		& + label {
+			line-height: 48px;
+			padding-left: 24px;
+
+			position: relative;
+			cursor: pointer;
+			user-select: none;
+
+			display: block;
+		
+			&:before, &:after {
+				content: "";
+				display: block;
+
+				// center
+				position: absolute;
+				top: 0; bottom: 0;
+				margin: auto;
+			}
+
+			&:before {
+				left: 0;
+
+				width: 16px; height: 16px;
+				border-radius: 16px;
+				border: solid 1px $black-hint;
+			}
+
+			&:after {
+				left: 4px;
+				width: 8px; height: 8px;
+				border-radius: 8px;
+				background-color: $primary-color;
+
+				transform: scale(0);
+				transition: transform 0.2s;
+				transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+			}
+		}
+
+
+		&:checked + label {
+			&:after {
+				transform: none;
+			}
+		}
+	}
+}

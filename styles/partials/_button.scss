@@ -1,0 +1,77 @@
+fs-button {
+	position: relative;
+
+	display: inline-block;
+	margin: auto;
+
+	cursor: pointer;
+	user-select: none;
+
+	// default
+	color: $black-secondary;
+	background-color: #F5F5F5;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+				inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+	border-radius: 2px;
+
+	padding: 0 16px;
+
+	font-size: $font-size-small;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+
+	iron-icon {
+		position: static;
+		width: 16px; height: 16px;
+		margin: -2px auto auto 8px;
+	}
+
+	// COLOR
+	// shared color
+	&.primary-color,
+	&.accent-color {
+		color: white;
+		box-shadow: 0px 1px 4px 0px $black-divider,
+					inset 0px 0px 0px 1px $black-divider;
+	}
+	// primary color
+	&.primary-color {
+		background-color: $primary-color;
+	}
+	// accent color
+	&.accent-color {
+		background-color: $accent-color;
+	}
+
+	// SIZE
+	&.full-width {
+		width: 100%;
+		display: block;
+
+		iron-icon {
+			position: absolute;
+			top: 0; bottom: 0;
+			left: 10px;
+			margin: auto;
+		}
+	}
+	&.large-height {
+		box-shadow: 0px 2px 4px 0px $black-divider,
+					0px 0px 2px 0px $black-hint;
+		border-radius: 4px;
+
+		font-size: $font-size-large;
+		line-height: 56px;
+
+		text-shadow: 0px 1px 2px $black-divider;
+
+		iron-icon {
+			width: 24px;
+			height: 24px;
+			left: 20px;
+		}
+	}
+}

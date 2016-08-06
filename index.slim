@@ -1,0 +1,124 @@
+doctype html
+html
+	head
+		title FSend
+
+		meta charset="utf-8"
+		meta http-equiv="X-UA-Compatible" content="IE=Edge"
+		meta name="viewport" content="width=device-width, initial-scale=1"
+
+		// Webcomponents
+		script asyn="" src="bower_components/webcomponentsjs/webcomponents-lite.min.js"
+
+		// Style sheets
+		link rel="stylesheet" href="styles/app.css"
+
+		// Components
+		link rel="import" href="components/components.html"
+		
+	body unresolved="" 
+		header
+			a href="#": img src="images/logo.svg" width="98" height="45"
+		main
+			h1
+				| Gửi tập tin lớn
+				br
+				| dễ dàng và miễn phí!
+			ul
+				li Gửi đến 4GB dữ liệu bất kỳ
+				li Không cần đăng ký tài khoản
+				li Không giới hạn tốc độ tải lên/tải xuống
+				li.li-link: a.show-aside href="#" Tìm hiểu thêm
+			fs-mail-container
+				form#main-form.form data-goal="mail" data-status="empty" data-send="wait"
+					fieldset#files-fieldset
+						fs-button#add-file-button
+							div.empty-content
+								iron-icon icon="editor:attach-file"
+								span chọn tập tin cần gửi (4gb)
+							div.dirty-content
+								iron-icon icon="add"
+								span thêm tập tin
+							div.mail-dirty-content
+								span thêm
+						ul#file-list
+					fieldset#goal-email-fieldset
+						fieldset#goal-fieldset
+							fs-radio-button
+								input#goal-mail type="radio" name="goal" value="mail" checked=""
+								label for="goal-mail" Gửi qua email
+							fs-radio-button
+								input#goal-link type="radio" name="goal" value="link"
+								label for="goal-link" Lấy liên kết
+						fieldset#email-fieldset
+							fs-input#from-email-input
+								label Từ:
+								input placeholder="Nhập email của bạn" type="text"
+							fs-input#to-email-input
+								label Đến:
+								input placeholder="Nhập email người nhận" type="text"
+							fs-input
+								label Lời nhắn:
+								input placeholder="" type="text"
+					fieldset#summary-fieldset
+						p Còn: 2:30:21
+						p: b 123kb/s
+					fieldset#error-fieldset
+					fieldset#term-fieldset
+						p
+							| Việc sử dụng dịch vụ này có nghĩa bạn
+							br
+							| đã đọc và đồng ý 
+							a.show-aside href="#" điều khoản
+							br
+							| sử dụng fsend.vn				
+				fs-button#submit-button data-status="waiting"
+					div.waiting-content
+						iron-icon icon="send"
+						| gửi
+					div.sending-content đang gửi
+				script src="scripts/form.js"
+			#finish-message.hide
+				iron-icon icon="check"
+				p Đã gửi 15 tập tin tới<br>abc@gmail.com
+				a#reload-link href="#" Gửi tiếp
+		aside
+			.container
+				main
+					paper-tabs selected="3"
+						paper-tab.hide-aside-link
+							iron-icon icon="arrow-back"
+							| quay lại
+						paper-tab giới thiệu
+						paper-tab gói cước
+						paper-tab hỏi đáp
+						paper-tab điều khoản
+						paper-tab tin tức
+						paper-tab liên hệ
+					iron-pages selected="3"
+						div
+						div.about
+							p Fsend là dịch vụ chuyển file dung lượng lớn miễn phí hàng đầu Việt Nam với nền tảng công nghệ điện toán đám mây (Cloud computing) cho phép người dùng gửi những file dung lượng lớn với tốc độ cao và an toàn thông qua email để chia sẻ dữ liệu với khách hàng, bạn bè, gia đình.
+							p Fsend tự hào mang đến trải nghiệm tuyệt vời với những ưu điểm sau:
+							ul
+								li Là giải pháp chia sẻ file dung lượng lớn với tốc độ cao và an toàn.
+								li Dễ sử dụng và tiện lợi.       
+								li Đơn giản, nhanh chóng, hiệu quả.
+						div 2
+						div.faq-page
+							dl
+								dt #1 Lorem ipsum dolor sit amet, consectetur adipiscing.
+								dd Curabitur imperdiet finibus dolor a vulputate. Maecenas semper sem ut orci placerat condimentum. Sed scelerisque blandit lectus at ultrices. Sed fermentum, erat eu tempus pharetra.
+							dl
+								dt #2 Suspendisse mattis mauris ac tellus convallis, ac iaculis dui porttitor. Donec tempor porta.
+								dd Vestibulum pretium mi id luctus dictum. Aenean dictum odio neque, et pulvinar justo sodales malesuada. Quisque quis risus suscipit, semper quam eget, interdum nisi. Maecenas ac massa eu augue viverra viverra eget quis mi.
+						div 4
+						div 5
+						div
+							p Liên hệ với Fsend để được hỗ trợ với các vấn đề kỹ thuật và thanh toán, quảng cáo, câu hỏi, hoặc các thông tin chung:
+							p: b Liên hệ trực tiếp 
+							p Nếu quý khách muốn được hỗ trợ trực tiếp, vui lòng gọi số (84-4) 7300 8888/(84-8) 7300 8888 hoặc Email: hotro@fsend.vn để được hỗ trợ.  Fsend.vn  Tòa nhà FPT Tân Thuận, Lô 29B-31B-33B, Đường Tân Thuận, KCX Tân Thuận, Phường Tân Thuận Đông, Quận 7, Tp.Hồ Chí Minh
+
+
+		// scripts
+		script src="scripts/app.js"

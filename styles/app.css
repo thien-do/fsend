@@ -1,0 +1,509 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input, textarea, keygen, select, button {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit; }
+
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
+
+html {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.26); }
+
+h1 {
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 56px;
+  color: #2196F3;
+  margin-bottom: 16px; }
+
+ul {
+  font-size: 21px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.54); }
+  ul > li:before {
+    content: "-";
+    width: 12px;
+    margin-right: 12px;
+    display: inline-block;
+    text-align: center; }
+  ul > li.li-link:before {
+    content: "+";
+    color: #FF4081; }
+
+a {
+  text-decoration: none;
+  color: #FF4081;
+  box-shadow: 0 5px 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s;
+          transition: box-shadow 0.2s; }
+  a:hover {
+    box-shadow: 0 1px 0 0 rgba(255, 64, 129, 0.5); }
+
+body > header {
+  width: 1024px;
+  margin: auto;
+  padding: 0 64px;
+  line-height: 96px; }
+  body > header a {
+    display: inline-block;
+    line-height: 96px; }
+    body > header a img {
+      vertical-align: middle; }
+
+fs-button {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #F5F5F5;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+  padding: 0 16px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase; }
+  fs-button iron-icon {
+    position: static;
+    width: 16px;
+    height: 16px;
+    margin: -2px auto auto 8px; }
+  fs-button.primary-color, form #files-fieldset #add-file-button, fs-button.accent-color, #submit-button {
+    color: white;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.12), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12); }
+  fs-button.primary-color, form #files-fieldset #add-file-button {
+    background-color: #2196F3; }
+  fs-button.accent-color, #submit-button {
+    background-color: #FF4081; }
+  fs-button.full-width, form #files-fieldset #add-file-button, #submit-button {
+    width: 100%;
+    display: block; }
+    fs-button.full-width iron-icon, form #files-fieldset #add-file-button iron-icon, #submit-button iron-icon {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 10px;
+      margin: auto; }
+  fs-button.large-height, #submit-button {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12), 0px 0px 2px 0px rgba(0, 0, 0, 0.26);
+    border-radius: 4px;
+    font-size: 21px;
+    line-height: 56px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12); }
+    fs-button.large-height iron-icon, #submit-button iron-icon {
+      width: 24px;
+      height: 24px;
+      left: 20px; }
+
+form {
+  height: 365px !important; }
+  form fieldset {
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.12);
+    position: relative; }
+  form #files-fieldset {
+    box-shadow: none;
+    -webkit-transition: background-color 0.6s;
+            transition: background-color 0.6s; }
+    form #files-fieldset.invalid {
+      background-color: rgba(244, 67, 54, 0.12); }
+    form #files-fieldset #add-file-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+      will-change: width;
+      -webkit-transition: width 0.6s;
+              transition: width 0.6s;
+      white-space: nowrap; }
+    form #files-fieldset #file-list {
+      display: block;
+      line-height: 1;
+      font-size: 0;
+      z-index: 0;
+      padding-bottom: 8px;
+      overflow: scroll;
+      -webkit-transition: padding-top 0.6s;
+              transition: padding-top 0.6s; }
+      form #files-fieldset #file-list > li {
+        display: block;
+        position: relative;
+        margin-bottom: 8px;
+        height: 36px;
+        -webkit-transition: margin-bottom 0.6s, height 0.6s;
+                transition: margin-bottom 0.6s, height 0.6s; }
+        form #files-fieldset #file-list > li:before {
+          content: none; }
+        form #files-fieldset #file-list > li.init {
+          margin-bottom: 0;
+          height: 0; }
+        form #files-fieldset #file-list > li paper-progress {
+          position: absolute;
+          pointer-events: none;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+          border-radius: 2px;
+          overflow: hidden; }
+          form #files-fieldset #file-list > li paper-progress::shadow #progressContainer {
+            background-color: transparent; }
+          form #files-fieldset #file-list > li paper-progress::shadow #activeProgress {
+            background-color: #2196F3;
+            -webkit-transition: -webkit-transform 0.6s;
+                    transition: transform 0.6s; }
+          form #files-fieldset #file-list > li paper-progress[value="100"] + fs-button {
+            pointer-events: none; }
+            form #files-fieldset #file-list > li paper-progress[value="100"] + fs-button iron-icon {
+              display: none; }
+  form #goal-email-fieldset {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+    background-color: white;
+    will-change: transform;
+    -webkit-transition: -webkit-transform 0.6s;
+            transition: transform 0.6s;
+    box-shadow: none; }
+  form #goal-fieldset {
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12); }
+    form #goal-fieldset fs-radio-button {
+      width: 50%; }
+  form #email-fieldset {
+    box-shadow: none; }
+  form #term-fieldset,
+  form #summary-fieldset,
+  form #error-fieldset {
+    z-index: 1;
+    box-shadow: none;
+    position: absolute;
+    bottom: 48px;
+    left: 0;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.54);
+    text-align: center; }
+  form #term-fieldset p,
+  form #error-fieldset p {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center; }
+  form #summary-fieldset {
+    display: none;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.12);
+    padding-top: 14px; }
+    form #summary-fieldset p {
+      margin-bottom: 8px; }
+      form #summary-fieldset p b {
+        color: #2196F3; }
+      form #summary-fieldset p:last-child {
+        margin-bottom: 0; }
+  form #error-fieldset {
+    z-index: 3;
+    background-color: white;
+    height: 42px;
+    display: none; }
+    form #error-fieldset.show {
+      display: block; }
+
+#submit-button:not([data-status=sending]) .sending-content {
+  display: none; }
+#submit-button:not([data-status=waiting]) .waiting-content {
+  display: none; }
+#submit-button[data-status="sending"] {
+  pointer-events: none;
+  cursor: default; }
+
+.mail-dirty-content {
+  display: none; }
+
+form[data-goal="mail"][data-status="dirty"] #add-file-button {
+  width: 64px !important; }
+  form[data-goal="mail"][data-status="dirty"] #add-file-button > div {
+    display: none; }
+  form[data-goal="mail"][data-status="dirty"] #add-file-button > .mail-dirty-content {
+    display: block; }
+
+form[data-goal="mail"] #file-list {
+  padding-top: 0;
+  height: 52px; }
+
+form[data-goal="link"] #file-list {
+  height: 196px;
+  padding-top: 44px; }
+form[data-goal="link"] #email-fieldset {
+  visibility: hidden; }
+form[data-goal="link"] #goal-email-fieldset {
+  -webkit-transform: translateY(144px);
+      -ms-transform: translateY(144px);
+          transform: translateY(144px); }
+
+form:not([data-status=empty]) .empty-content {
+  display: none; }
+
+form:not([data-status=dirty]) .dirty-content {
+  display: none; }
+
+form[data-send="sending"]:not(#khongphaidangvuadau) #files-fieldset #add-file-button {
+  display: none; }
+form[data-send="sending"]:not(#khongphaidangvuadau) #files-fieldset #file-list {
+  padding-top: 0;
+  height: 244px; }
+  form[data-send="sending"]:not(#khongphaidangvuadau) #files-fieldset #file-list li fs-button {
+    display: block;
+    text-align: left; }
+    form[data-send="sending"]:not(#khongphaidangvuadau) #files-fieldset #file-list li fs-button iron-icon {
+      position: absolute;
+      top: 12px;
+      right: 12px; }
+form[data-send="sending"]:not(#khongphaidangvuadau) #goal-email-fieldset,
+form[data-send="sending"]:not(#khongphaidangvuadau) #term-fieldset {
+  display: none; }
+form[data-send="sending"]:not(#khongphaidangvuadau) #summary-fieldset {
+  display: block; }
+
+paper-tabs {
+  height: 96px;
+  color: white;
+  box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.12);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+  paper-tabs::shadow #selectionBar {
+    height: 1px;
+    background-color: white; }
+  paper-tabs paper-tab::shadow #ink {
+    color: white; }
+  paper-tabs paper-tab:not(.iron-selected)::shadow > .tab-content {
+    opacity: 0.4; }
+  paper-tabs iron-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -12px; }
+
+.no-shadow-dom:not(#khongphaidangvuadau) .paper-tab-0 #ink.paper-tab {
+  color: white; }
+.no-shadow-dom:not(#khongphaidangvuadau) .paper-tabs-0 #selectionBar.paper-tabs {
+  height: 1px;
+  background-color: white; }
+.no-shadow-dom:not(#khongphaidangvuadau) paper-tab:not(.iron-selected) > .tab-content.paper-tab {
+  opacity: 0.4; }
+.no-shadow-dom:not(#khongphaidangvuadau) paper-tabs iron-icon.iron-icon-0 {
+  width: 16px;
+  height: 16px; }
+
+aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding-top: 96px;
+  cursor: pointer;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  will-change: transform;
+  -webkit-transition: -webkit-transform 0.6s;
+          transition: transform 0.6s; }
+  aside > .container {
+    width: 100%;
+    height: 100%;
+    cursor: auto;
+    background: #455A64;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.26), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.12); }
+    aside > .container > main {
+      width: 1024px;
+      margin: auto;
+      padding: 0 64px; }
+  aside p, aside ul {
+    font-size: 21px;
+    color: white;
+    font-weight: 300; }
+  aside p {
+    line-height: 32px;
+    margin-bottom: 16px; }
+
+body.show-aside > aside {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none; }
+
+aside iron-pages {
+  padding: 46px 0;
+  color: white; }
+  aside iron-pages .faq-page {
+    font-size: 0; }
+    aside iron-pages .faq-page > dl {
+      display: inline-block;
+      width: 50%;
+      font-size: 15px;
+      vertical-align: top;
+      line-height: 24px; }
+      aside iron-pages .faq-page > dl dt {
+        margin-bottom: 8px; }
+      aside iron-pages .faq-page > dl dd {
+        opacity: 0.7; }
+      aside iron-pages .faq-page > dl:first-child {
+        padding-right: 32px; }
+      aside iron-pages .faq-page > dl:last-child {
+        padding-left: 32px; }
+
+body.show-aside fs-mail-container {
+  -webkit-transform: translateY(-78px);
+      -ms-transform: translateY(-78px);
+          transform: translateY(-78px);
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s; }
+
+fs-mail-container {
+  will-change: transform;
+  -webkit-transition: -webkit-transform 0.4s;
+          transition: transform 0.4s; }
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body > main {
+  width: 1024px;
+  margin: auto;
+  padding: 0 64px;
+  position: relative;
+  padding-top: 176px; }
+
+body > main > fs-mail-container {
+  position: absolute;
+  top: 0;
+  right: 96px; }
+
+#finish-message {
+  position: absolute;
+  top: 200px;
+  right: 96px;
+  width: 392px;
+  z-index: 0;
+  text-align: center; }
+  #finish-message iron-icon {
+    width: 48px;
+    height: 48px;
+    color: #2196F3;
+    margin-bottom: 16px; }
+  #finish-message p {
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 16px; }
+  #finish-message a {
+    font-size: 21px; }
+  #finish-message.hide {
+    display: none; }
+
+#download-page #description {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 8px;
+  line-height: 20px; }
+  #download-page #description b {
+    font-weight: 600;
+    color: #2196F3; }
+#download-page #mail-container {
+  left: 0;
+  right: 0;
+  margin: auto; }
+#download-page #file-list {
+  display: block;
+  line-height: 1;
+  font-size: 0;
+  z-index: 0;
+  padding-bottom: 8px;
+  overflow: scroll;
+  height: 188px;
+  border-bottom: rgba(0, 0, 0, 0.12) 1px solid; }
+  #download-page #file-list > li {
+    display: block;
+    position: relative;
+    margin-bottom: 8px;
+    height: 36px; }
+    #download-page #file-list > li fs-button {
+      display: block;
+      text-align: left; }
+      #download-page #file-list > li fs-button iron-icon {
+        position: absolute;
+        top: 12px;
+        right: 12px; }
+    #download-page #file-list > li:before {
+      content: none; }
+#download-page #submit-button {
+  width: 240px !important; }
+
+/*# sourceMappingURL=app.css.map */

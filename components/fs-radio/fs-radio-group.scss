@@ -1,0 +1,9 @@
+@import "../../styles/modules/all";
+
+:host {
+	display: block;
+	font-size: 0;
+
+	box-shadow: inset 0px -1px 0px 0px $black-divider;
+	height: 48px;
+}

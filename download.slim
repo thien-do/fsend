@@ -1,0 +1,54 @@
+doctype html
+html
+	head
+		title FSend
+
+		meta charset="utf-8"
+		meta http-equiv="X-UA-Compatible" content="IE=Edge"
+		meta name="viewport" content="width=device-width, initial-scale=1"
+
+		// Webcomponents
+		script asyn="" src="bower_components/webcomponentsjs/webcomponents-lite.min.js"
+
+		// Style sheets
+		link rel="stylesheet" href="styles/app.css"
+
+		// Components
+		link rel="import" href="components/components.html"
+		
+	body#download-page unresolved="" 
+		header
+			a href="/": img src="images/logo.svg" width="98" height="45"
+		main
+			fs-mail-container#mail-container
+				form
+					p#description
+						b dvkndn@gmail.com 
+						br
+						| đã gửi cho bạn 15 tập tin:
+					ul#file-list
+						- 20.times do ||
+							li: fs-button
+								| file
+								iron-icon icon="file-download"
+				fs-button#submit-button
+					iron-icon icon="file-download"
+					| tải tất cả
+
+		// scripts
+		// script src="scripts/app.js"
+		javascript:
+			// native shadow dom check
+			if(!document.head.createShadowRoot) {
+				document.querySelector("body").classList.add("no-shadow-dom");
+			};
+
+			// load mail container
+			var readyStateCheckInterval = setInterval(function() {
+				if (document.readyState === "complete") {
+					clearInterval(readyStateCheckInterval);
+					setTimeout(function(){
+						document.querySelector("fs-mail-container").animateIn();
+					}, 100);
+				}
+			}, 100);

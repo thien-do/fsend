@@ -1,0 +1,50 @@
+<link href="../../bower_components/polymer/polymer.html" rel="import" />
+<link href="../../bower_components/paper-spinner/paper-spinner.html" rel="import" />
+<dom-module id="fs-file-input">
+  <link href="fs-file-input.css" rel="import" type="css" />
+  <template><content></content></template></dom-module>
+<script type="text/javascript">
+  Polymer({
+      is: "fs-file-input",
+      ready: function() {
+  
+          // Show file list
+          var addButton 	= this.querySelector("#add-button");
+          var fileList 	= this.querySelector("#file-list");
+  
+  
+          function checkFileList(state) {
+              if ((fileList.children.length == 0) && (state == "remove")) {
+                  addButton.classList.remove("add-more");
+              } else if ((fileList.children.length == 1) && (state == "add")) {
+                  addButton.classList.add("add-more");
+              }
+          }
+  
+          // add file
+          addButton.addEventListener("click", function(event) {
+              var index = fileList.children.length + 1;
+              var string = strings[Math.floor(Math.random()*strings.length)];
+              var value = "<fs-button>" + index + ". " + string + ".zip<iron-icon icon=\"clear\"></iron-icon></fs-button>";
+  
+              var li = document.createElement("li");
+              li.innerHTML = value;
+              fileList.insertBefore(li, fileList.firstChild);
+              setTimeout(function() {
+                  li.classList.add("show");
+              }, 100);
+  
+              checkFileList("add");
+          });
+  
+          // remove file
+          fileList.addEventListener('click', function(event) {
+  
+              if (event.target.tagName.toLowerCase() === "fs-button") {
+                  fileList.removeChild(event.target.parentNode);
+                  checkFileList("remove");
+              }
+          });
+      }
+  });
+</script>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FSend</title>
+    <meta charset="utf-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script asyn="" src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link href="styles/app.css" rel="stylesheet" />
+    <link href="components/components.html" rel="import" />
+  </head>
+  <body id="download-page" unresolved="">
+    <header>
+      <a href="/"><img height="45" src="images/logo.svg" width="98" /></a>
+    </header>
+    <main><fs-mail-container id="mail-container">
+        <form>
+          <p id="description">
+            <b>dvkndn@gmail.com </b><br />đã gửi cho bạn 15 tập tin:
+          </p>
+          <ul id="file-list">
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+            <li>
+              <fs-button>file<iron-icon icon="file-download"></iron-icon></fs-button>
+            </li>
+          </ul>
+        </form>
+        <fs-button id="submit-button"><iron-icon icon="file-download"></iron-icon>tải tất cả</fs-button></fs-mail-container></main>
+    <script type="text/javascript">
+      // native shadow dom check
+      if(!document.head.createShadowRoot) {
+          document.querySelector("body").classList.add("no-shadow-dom");
+      };
+      
+      // load mail container
+      var readyStateCheckInterval = setInterval(function() {
+          if (document.readyState === "complete") {
+              clearInterval(readyStateCheckInterval);
+              setTimeout(function(){
+                  document.querySelector("fs-mail-container").animateIn();
+              }, 100);
+          }
+      }, 100);
+    </script>
+  </body>
+</html>

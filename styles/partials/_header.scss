@@ -1,0 +1,15 @@
+body > header {
+	width: 1024px;
+	margin: auto;
+	padding: 0 64px;
+
+	line-height: 96px;
+	a {
+		display: inline-block;
+		line-height: 96px;
+
+		img {
+			vertical-align: middle;
+		}
+	}
+}

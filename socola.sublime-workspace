@@ -1,0 +1,1813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"submit",
+				"submitButton"
+			],
+			[
+				"pad",
+				"padding-top: "
+			],
+			[
+				"margin",
+				"margin-bottom: "
+			],
+			[
+				"trans",
+				"transition: "
+			],
+			[
+				"Lore",
+				"loremStrings"
+			],
+			[
+				"cli",
+				"children"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"form",
+				"formActionSelector"
+			],
+			[
+				"min-",
+				"min-height: "
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin: "
+			],
+			[
+				"te",
+				"text-align: "
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"addFile",
+				"addFileList"
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"pap",
+				"paperTabs"
+			],
+			[
+				"paper",
+				"paper-tabs"
+			],
+			[
+				"box-s",
+				"box-shadow: "
+			],
+			[
+				"back",
+				"background-color: "
+			],
+			[
+				"blac",
+				"black-divider"
+			],
+			[
+				"black-",
+				"black-hint"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin: "
+			],
+			[
+				"lin",
+				"linear-gradient	Bourbon"
+			],
+			[
+				"in",
+				"include	include: $self"
+			],
+			[
+				"o",
+				"other"
+			],
+			[
+				"s",
+				"storage"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"bla",
+				"blank_td_count"
+			],
+			[
+				"td",
+				"td_blank_tag"
+			],
+			[
+				"blank",
+				"blank_length"
+			],
+			[
+				"html",
+				"html_safe"
+			],
+			[
+				"box",
+				"box-sizing: "
+			],
+			[
+				"room",
+				"room-counter"
+			],
+			[
+				"counter-",
+				"counter-increment: "
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"border",
+				"border-radius: "
+			],
+			[
+				"bakc",
+				"background-image: "
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"backg",
+				"background-color: "
+			],
+			[
+				"marign",
+				"margin-right: "
+			],
+			[
+				"border-",
+				"border-radius: "
+			],
+			[
+				"notices",
+				"notices_path"
+			],
+			[
+				"defaul",
+				"form-default-spacing"
+			],
+			[
+				"default",
+				"default-spacing"
+			],
+			[
+				"badg",
+				"badge_class"
+			],
+			[
+				"cont",
+				"content_tag"
+			],
+			[
+				"sel",
+				"selected_text"
+			],
+			[
+				"selec",
+				"selected_color"
+			],
+			[
+				"sele",
+				"selected_value"
+			],
+			[
+				"borde",
+				"border-radius: "
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"text-",
+				"text-highlight"
+			],
+			[
+				"optio",
+				"option_tags"
+			],
+			[
+				"opt",
+				"option_tags"
+			],
+			[
+				"lab",
+				"label_tag"
+			],
+			[
+				"fie",
+				"fieldset-height"
+			],
+			[
+				"fl",
+				"float: "
+			],
+			[
+				"select",
+				"select-wrapper"
+			],
+			[
+				"margin-",
+				"margin-left: "
+			],
+			[
+				"leg",
+				"legend-sub-width"
+			],
+			[
+				"legen",
+				"legend-width"
+			],
+			[
+				"min",
+				"min-width: "
+			],
+			[
+				"marig",
+				"margin-right: "
+			],
+			[
+				"le",
+				"left: "
+			],
+			[
+				"tet",
+				"text-align: "
+			],
+			[
+				"gnb",
+				"gnb-header-items"
+			],
+			[
+				"actio",
+				"action-sidebar-width"
+			],
+			[
+				"tod",
+				"today-sidebar-minified-width"
+			],
+			[
+				"ac",
+				"action-sidebar-width"
+			],
+			[
+				"today",
+				"today-sidebar-width"
+			],
+			[
+				"ove",
+				"overflow: "
+			],
+			[
+				"load",
+				"loadDialog"
+			],
+			[
+				"insurer",
+				"insurer_confirm"
+			],
+			[
+				"margi",
+				"margin-bottom: "
+			],
+			[
+				"pol",
+				"policy_detail"
+			],
+			[
+				"get",
+				"getParameterByName"
+			],
+			[
+				"diao",
+				"dialog_type"
+			],
+			[
+				"dia",
+				"dialog_type"
+			],
+			[
+				"sup",
+				"supported_types"
+			],
+			[
+				"dialog",
+				"dialog_types"
+			],
+			[
+				"padd",
+				"padding-top: "
+			],
+			[
+				"ilin",
+				"inline-block"
+			],
+			[
+				"teal",
+				"text-align: "
+			],
+			[
+				"tea",
+				"text-transform: "
+			],
+			[
+				"box-",
+				"box-shadow: "
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bord",
+				"border-radius: "
+			],
+			[
+				"bak",
+				"background-color: "
+			],
+			[
+				"heade",
+				"header-height"
+			],
+			[
+				"bor",
+				"border-radius: "
+			],
+			[
+				"header",
+				"header_title"
+			],
+			[
+				"arti",
+				"article_path"
+			],
+			[
+				"article",
+				"article"
+			],
+			[
+				"max-",
+				"max-height: "
+			],
+			[
+				"over",
+				"overflow: "
+			],
+			[
+				"ov",
+				"overflow: "
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"pa",
+				"padding-top: "
+			],
+			[
+				"ali",
+				"align-items: "
+			],
+			[
+				"fle",
+				"flex-direction: "
+			],
+			[
+				"pading",
+				"padding-bottom: "
+			],
+			[
+				"p",
+				"padding: "
+			],
+			[
+				"des-he",
+				"des-height-L"
+			],
+			[
+				"cover",
+				"cover-size-L"
+			],
+			[
+				"font-s",
+				"font-size: "
+			],
+			[
+				"blur",
+				"blur-amount"
+			],
+			[
+				"tran",
+				"transition: "
+			],
+			[
+				"r",
+				"rgbColor"
+			],
+			[
+				"rgb",
+				"rgbToHex"
+			],
+			[
+				"white",
+				"white-secondary"
+			],
+			[
+				"black",
+				"black-secondary"
+			],
+			[
+				"col",
+				"primary-color"
+			],
+			[
+				"iniln",
+				"inline-block"
+			],
+			[
+				"primary",
+				"primary-color"
+			],
+			[
+				"primar",
+				"primary-color"
+			],
+			[
+				"white-",
+				"white-secondary"
+			],
+			[
+				"fade-",
+				"fade-out	Sass-function"
+			],
+			[
+				"prim",
+				"primary-color"
+			],
+			[
+				"font-",
+				"font-family: "
+			],
+			[
+				"buid",
+				"buildBackground"
+			],
+			[
+				"alig",
+				"alignLogo"
+			],
+			[
+				"build",
+				"buildBackground"
+			],
+			[
+				"off",
+				"offsetWidth"
+			],
+			[
+				"color",
+				"colorTiles"
+			],
+			[
+				"Tile",
+				"Tile"
+			],
+			[
+				"cur",
+				"currentLeft"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "components/fs-mail-container/fs-mail-container.slim",
+			"settings":
+			{
+				"buffer_size": 755,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/components.slim",
+			"settings":
+			{
+				"buffer_size": 1040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/partials/_form.scss",
+			"settings":
+			{
+				"buffer_size": 2733,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/form.js",
+			"settings":
+			{
+				"buffer_size": 1893,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/partials/_button.scss",
+			"settings":
+			{
+				"buffer_size": 1322,
+				"line_ending": "Unix",
+				"name": "_button.scss"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				]
+			],
+			[
+				"Packages/AAAPackageDev/Support/Convert to ....sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – User"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/thiendo/Dropbox/Work/socola/git",
+		"/Users/thiendo/Dropbox/Work/socola/git/components",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-form",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/modules",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials"
+	],
+	"file_history":
+	[
+		"/Users/thiendo/Dropbox/Work/socola/git/index.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-button/fs-button.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-file-input/fs-file-input.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/scripts/form.js",
+		"/Users/thiendo/Dropbox/Work/socola/git/scripts/app.js",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-mail-container/fs-mail-container.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-button/fs-button.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/app.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-file-input/fs-file-input.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-file-input/fs-file-input.html",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-radio/fs-radio-group.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-radio/fs-radio-group.css",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-input/fs-input.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-form/fs-form.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-form/fs-form.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-mail-container/fs-mail-container.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-radio/fs-radio-button.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/app.css",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_all.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-radio/fs-radio-group.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_mail-container.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_radio.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-button/fs-button.css",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/components.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-radio/fs-radio-button.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_input.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_button.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_form.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-radio/_fs-radio-button.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_tab.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/modules/_all.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/index_full.html",
+		"/Users/thiendo/Dropbox/Work/socola/git/styles/partials/_aside.scss",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-file-input/fs-file-list.slim",
+		"/Users/thiendo/Dropbox/Work/socola/git/components/fs-button/fs-button.html",
+		"/Users/thiendo/Dropbox/Work/socola/git/bower_components/paper-button/index.html",
+		"/Users/thiendo/Dropbox/Work/socola/git/index.html",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-mail-container/fs-mail-container.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/partials/_all.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/partials/_form.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/scripts/app.js",
+		"/Users/thiendo/Dropbox/Work/socola/code/index.html",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/components.html",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/components.slim",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/partials/_aside.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/partials/_button.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-mail-container/fs-mail-container.slim",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/partials/_mail-container.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/app.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/partials/_tab.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/index.slim",
+		"/Users/thiendo/Dropbox/Work/socola/code/bower_components/paper-spinner/demo/index.html",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/modules/_varibles.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-mail-container/fs-mail-container.css",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/modules/_all.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/partials",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/_form.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/_typography.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-input/fs-input.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-button/fs-button.slim",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-button/fs-button.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/_bit.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/bower_components/paper-styles/typography.html",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-mail",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/_header.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/_reset.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-button/fs-button.html",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-button/fs-button.css",
+		"/Users/thiendo/Dropbox/Work/socola/code/bower_components/paper-button/paper-button.html",
+		"/Users/thiendo/Dropbox/Work/socola/code/components/fs-input/fs-input.slim",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/app.css",
+		"/Users/thiendo/Dropbox/Work/socola/code/socola.sublime-project",
+		"/Users/thiendo/Dropbox/Work/socola/code/styles/_font.scss",
+		"/Users/thiendo/Dropbox/Work/socola/code/proto-element.html",
+		"/Users/thiendo/Desktop/all.todo",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/contracts.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/massage_services.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/massages_services/schedule.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/massages_services/index.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/counsel_sessions/index.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/personal_equipments/index.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/room_equipments/index.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/application.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/layouts/application.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/partials/_tab.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/rooms/rooming_status.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/_navbar.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/contracts/index.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/contracts/_header.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/contracts/new.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/counsel_reservations/index.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/contracts/_form.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/partials/_navbar.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/layouts/_administration_header.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/customers/_header.html.slim",
+		"/Users/thiendo/Desktop/all",
+		"/Users/thiendo/.Trash/all 5.25.52 PM",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/external_services/index.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/counsel_reservations/_counsel_reservation_header.html.slim",
+		"/Users/thiendo/Documents/Old Project/FPT Ventures/layout_new/css/styles.css",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/balances/salary.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/db/migrate/20150529095143_rename_column_thursady_to_thursday_for_table_external_services.rb",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/db/migrate/20150529081955_rename_column_thursady_in_external_services.rb",
+		"/Users/thiendo/Dropbox/Work/com-ga/export/design notes.txt",
+		"/Users/thiendo/Documents/Old Project/FPT Ventures/layout_new/accelerator.html",
+		"/Users/thiendo/Documents/Old Project/FPT Ventures/layout_new/about.html",
+		"/Users/thiendo/Documents/Old Project/FPT Ventures/layout_new/event.html",
+		"/Users/thiendo/Documents/Old Project/FPT Ventures/layout_new/portfolio.html",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/partials/form/_form.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/partials/form/_textfield.scss",
+		"/Users/thiendo/Documents/Old Project/FPT Ventures/layout_new/css/font_face.css",
+		"/Users/thiendo/Library/Application Support/Sublime Text 3/Packages/User/todo.YAML-tmLanguage",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/modules/_bit.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/balances.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/balances/_sale.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/balances/_expense.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/partials/_popup.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/helpers/form_helper.rb",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/balances/_balances_header.html.slim",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/views/balances/_statistics.html.slim",
+		"/Users/thiendo/Desktop/todo.sublime-syntax",
+		"/Users/thiendo/Desktop/all.todo.txt",
+		"/Users/thiendo/Desktop/all.txt",
+		"/Users/thiendo/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/thiendo/Dropbox/all",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/rooms.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/assets/stylesheets/partials/font.scss",
+		"/Users/thiendo/Dropbox/Work/kim-bap/carecenter/code/app/helpers/rooms_helper.rb"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"<open folders>",
+			"/Users/thiendo/Dropbox/Work/Leek/code/",
+			"/Users/thiendo/Dropbox/Public/Leek/code/style",
+			"",
+			"/Users/thiendo/Dropbox/Project/Celery/web/styles/,-_helper.scss,-.sass-cache/",
+			"/Users/thiendo/Dropbox/Project/Celery/web/styles/,-_helper.scss",
+			"/Users/thiendo/Dropbox/Project/Celery/web/styles/,-_helper.scss,-.sass-cache/",
+			"/Users/thiendo/Dropbox/Project/Celery/web/styles/",
+			"/Users/thiendo/Dropbox/Project/Celery/web/styles/,-_helper.scss,-.sass-cache",
+			"/Users/thiendo/Dropbox/Project/Celery/web/styles/,-_helper.scss",
+			"/Users/thiendo/Dropbox/Project/Celery/web/styles/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-1px",
+			"height",
+			":host\\((.*)\\)",
+			"fset",
+			"-fieldset",
+			" ){",
+			"&\\.(.*)\\{",
+			"paper-button",
+			"ripple",
+			"paper-button",
+			"--",
+			"paper-spinner",
+			"paper-spiner",
+			"will",
+			"rgba(black,0.12)",
+			"rgba(black, 0.12)",
+			"abc",
+			"객실이용 잔금",
+			"2015.6월 상담 예약",
+			"tab-pane",
+			"Royal",
+			"RenameColumnThursadyToThursdayForTable",
+			"Remember Me",
+			"font-family: ",
+			"font-family: 'LatoBlack';",
+			"font-family: 'Lato-Bold'",
+			"input#(.*) type=\"checkbox\" value=\"\"\\nlabel for=\".*\" (.*)",
+			"input",
+			"label",
+			" /\\n\\| (.*)\\nlabel",
+			".remove-bg",
+			"  .col-lg-6\\n    .checkbox\\n      ",
+			".row\\n",
+			"form",
+			"pace",
+			"Room 1",
+			"입실현항",
+			"계약 등록",
+			"010",
+			"p.text-hi",
+			"font-family: 'Lato-Bold'",
+			"font-family: 'LatoBlack'",
+			"padding",
+			"\"}\"",
+			"\"#{\"",
+			"'",
+			"foot",
+			"span.label",
+			"span = \"/\"",
+			"span = \"/ \"",
+			"info-name-specialist",
+			"'",
+			"color: ",
+			"12px",
+			"margin-right",
+			"22px",
+			"]]))",
+			"([[",
+			"legend",
+			"div\\n.*= ",
+			"]]));",
+			"text_field_tag\\((.*)\\)\\n.*, (.*)\\)",
+			"custom_select_tag\\((.*)\\);\\n.*, (.*)\\)",
+			"@impor",
+			"inlineRadio",
+			"handleSlimS",
+			"scroll",
+			"generateSlimS",
+			"scroll",
+			"              raise AbstractController::Helpers::MissingHelperError.new(e, file_name)\nraise AbstractController::Helpers::MissingHelperError.new(e, file_name)",
+			"    ",
+			"\\n",
+			"(.*) - .*",
+			"input[t",
+			"(.*)",
+			"\\n\\n\\n",
+			"Trung Quân Idol",
+			"Trung Quân ",
+			"(.*) - .*",
+			"(.*) a- .*",
+			"(.*) - .*",
+			"button type=\"button\"",
+			"td ",
+			"news",
+			"button",
+			"table",
+			"drusb",
+			"abso",
+			"blur-amount",
+			"$",
+			"showColorsForImage",
+			"photo1",
+			"h3",
+			"font-weight: 500;",
+			"font-size: 13px",
+			"font-size: 12px",
+			"strong",
+			"button",
+			"folder",
+			"right_col_center_qc",
+			"32",
+			", ",
+			"321",
+			"h3",
+			".*\\. ",
+			"font",
+			")",
+			"(",
+			"<!doctype html>\n<html>\n\n<head>\n\n	<title>unquote</title>\n\n	<meta name=\"viewport\" \n	content=\"width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes\">\n\n	<script src=\"../components/platform/platform.js\">\n	</script>\n\n	<link rel=\"import\" href=\"../components/font-roboto/roboto.html\">\n	<link rel=\"import\" href=\"../components/core-header/core-header.html\">\n	<link rel=\"import\" href=\"../components/core-toolbar/core-toolbar.html\">\n	<link rel=\"import\" href=\"../components/paper-tabs/paper-tabs.html\">\n\n	<style>\n		html,body {\n			height: 100%;\n			margin: 0;\n			background-color: #E5E5E5;\n			font-family: 'RobotoDraft', sans-serif;\n		}\n		.container {\n			width: 80%;\n			margin: 50px auto;\n		}\n		@media (min-width: 481px) {\n			#tabs {\n				width: 200px;\n			}\n			.container {\n				width: 400px;\n			}\n		}\n		core-header-panel {\n		  height: 100%;\n		  overflow: auto;\n		  -webkit-overflow-scrolling: touch; \n		}\n		core-toolbar {\n		  background: #03a9f4;\n		  color: white;\n		}\n		#tabs {\n		  width: 100%;\n		  margin: 0;\n		  -webkit-user-select: none;\n		  -moz-user-select: none;\n		  -ms-user-select: none;\n		  user-select: none;\n		  text-transform: uppercase;\n		}\n	</style>\n\n</head>\n\n<body unresolved>\n<core-header-panel>\n	<core-toolbar>\n		<paper-tabs id=\"tabs\" selected=\"all\" self-end>\n			<paper-tab name=\"all\">All</paper-tab>\n			<paper-tab name=\"favorites\">Favorites</paper-tab>\n		</paper-tabs>\n	</core-toolbar>\n</core-header-panel>\n\n</body>\n\n</html>\n",
+			"[\n	{ \"keys\": [\"ctrl+tab\"], \"command\": \"next_view\" },\n    { \"keys\": [\"ctrl+shift+tab\"], \"command\": \"prev_view\" },\n    { \"keys\": [\"super+w\"], \"command\": \"close\" },\n    { \"keys\": [\"super+i\"], \"command\": \"reident\" }\n]\n",
+			"disable",
+			"debounce",
+			"\"",
+			"infinite",
+			"button",
+			"p ",
+			"p",
+			"header\n					h4 ",
+			"header\n				h4 ",
+			"header\n				h2 ",
+			"src=\"images/",
+			"images/",
+			"img/",
+			"color: $colorSecondary",
+			"color: $colorPrimary",
+			"background: $colorPrimary",
+			"background: $colorPrimaryHightlight",
+			"background-color: $colorPrimaryHightlight"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"&$1",
+			"fieldset",
+			"-fset",
+			") {",
+			":host(.$1){",
+			":host($1){",
+			"fs-button",
+			"$black-divider",
+			"font-weight: 900;",
+			"font-weight: bold",
+			"= checkbox_with_label_tag(\"$1\", \"$2\")",
+			"= checkbox_with_label_tag($1, $2)",
+			"input#checkbox",
+			"label for=\"checkbox\"",
+			"\\nlabel $1",
+			"",
+			"font-family: 'Lato';\nfont-weight: 700;",
+			"font-family: 'Lato';\nfont-weight: 900",
+			"\")",
+			"(\"",
+			"\"",
+			"span.f-label",
+			"span.label = \"/\"",
+			"span = \"/\"",
+			"\"",
+			"]))",
+			"([",
+			"= ",
+			"]]))",
+			"text_field_with_label_tag(\\2, \\1)",
+			"select_with_label_tag(\\2, \\1);",
+			"radio",
+			"	",
+			"\",\\n\"",
+			"\"\\1\",",
+			"\\n",
+			"",
+			"\"\\1\",",
+			"\"\\1\"",
+			"\\1",
+			"a.button",
+			"td: a href=\"#\"",
+			"faq",
+			"hades",
+			"des-blur",
+			"font-weight: bold;",
+			"_foot",
+			"</a> </li>\n			<li><a role=\"menuitem\" href=\"#\">",
+			"\n",
+			"481",
+			"",
+			"]",
+			"[",
+			"'",
+			"header: h4 ",
+			"header: h2 ",
+			"src=\"imgs/",
+			"@extend .color-secondary",
+			"@extend .color-primary",
+			"@extend .bg-color-primary",
+			"@extend .bg-color-primary-hightlight",
+			"@extend .bg-color-secondary",
+			"@extend .bg-color-primary",
+			".#{$fontIcon}",
+			"i.fa",
+			"$fontSize",
+			"fontSize",
+			"size",
+			"",
+			"\"",
+			"meta $1",
+			"meta $0",
+			"meta \\1",
+			"meta $1",
+			"meta #{1}",
+			"meta",
+			"button",
+			"title",
+			"@import \"../fontawesome/",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "components/fs-mail-container/fs-mail-container.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/components.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "styles/partials/_form.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2621,
+								2621
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 932.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/form.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1582,
+								1582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "styles/partials/_button.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								938,
+								938
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_button.scss",
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "",
+	"project": "socola.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"form.js",
+				"scripts/form.js"
+			],
+			[
+				"fs-file",
+				"components/fs-file-input/fs-file-input.slim"
+			],
+			[
+				"fs-mai",
+				"components/fs-mail-container/fs-mail-container.slim"
+			],
+			[
+				"fs-mail",
+				"components/fs-mail-container/fs-mail-container.slim"
+			],
+			[
+				"fs-but",
+				"components/fs-button/fs-button.scss"
+			],
+			[
+				"a",
+				"styles/app.scss"
+			],
+			[
+				"app",
+				"styles/app.scss"
+			],
+			[
+				"but",
+				"components/fs-button/fs-button.slim"
+			],
+			[
+				"fs-filei",
+				"components/fs-file-input/fs-file-input.html"
+			],
+			[
+				"fs-file-",
+				"components/fs-file-input/fs-file-input.scss"
+			],
+			[
+				"fs-rad",
+				"components/fs-radio/fs-radio-group.css"
+			],
+			[
+				"radiogr",
+				"components/fs-radio/fs-radio-group.slim"
+			],
+			[
+				"fs-file-in",
+				"components/fs-file-input/fs-file-input.scss"
+			],
+			[
+				"fs-in",
+				"components/fs-input/fs-input.scss"
+			],
+			[
+				"filein",
+				"components/fs-file-input/fs-file-input.slim"
+			],
+			[
+				"input.scs",
+				"components/fs-input/fs-input.scss"
+			],
+			[
+				"mail-conta",
+				"components/fs-mail-container/fs-mail-container.scss"
+			],
+			[
+				"partia",
+				"styles/partials/_all.scss"
+			],
+			[
+				"mail",
+				"styles/partials/_mail-container.scss"
+			],
+			[
+				"fs-radio-gr",
+				"components/fs-radio/fs-radio-group.scss"
+			],
+			[
+				"radio",
+				"components/fs-radio/fs-radio-button.scss"
+			],
+			[
+				"app.cs",
+				"styles/app.css"
+			],
+			[
+				"form",
+				"styles/partials/_form.scss"
+			],
+			[
+				"input",
+				"styles/partials/_input.scss"
+			],
+			[
+				"fsbu",
+				"components/fs-button/fs-button.css"
+			],
+			[
+				"compo",
+				"components/components.slim"
+			],
+			[
+				"rdadiogroscs",
+				"components/fs-radio/fs-radio-group.scss"
+			],
+			[
+				"fsinp",
+				"components/fs-input/fs-input.scss"
+			],
+			[
+				"inpu",
+				"styles/partials/_input.scss"
+			],
+			[
+				"tab",
+				"styles/partials/_tab.scss"
+			],
+			[
+				"for",
+				"styles/partials/_form.scss"
+			],
+			[
+				"fs-inpu",
+				"components/fs-input/fs-input.scss"
+			],
+			[
+				"modul",
+				"styles/modules/_all.scss"
+			],
+			[
+				"index_f",
+				"index_full.html"
+			],
+			[
+				"com",
+				"components/components.slim"
+			],
+			[
+				"inde",
+				"index.slim"
+			],
+			[
+				"aside",
+				"styles/partials/_aside.scss"
+			],
+			[
+				"fs-",
+				"components/fs-input/fs-input.scss"
+			],
+			[
+				"comp",
+				"components/components.slim"
+			],
+			[
+				"appjs",
+				"scripts/app.js"
+			],
+			[
+				"all",
+				"styles/partials/_all.scss"
+			],
+			[
+				"mail-c",
+				"components/fs-mail-container/fs-mail-container.scss"
+			],
+			[
+				"butt",
+				"styles/partials/_button.scss"
+			],
+			[
+				"app.css",
+				"styles/app.scss"
+			],
+			[
+				"fs-mascs",
+				"components/fs-mail-container/fs-mail-container.scss"
+			],
+			[
+				"ap",
+				"scripts/app.js"
+			],
+			[
+				"app.",
+				"scripts/app.js"
+			],
+			[
+				"ta",
+				"styles/partials/_tab.scss"
+			],
+			[
+				"ind",
+				"index.slim"
+			],
+			[
+				"vari",
+				"styles/modules/_varibles.scss"
+			],
+			[
+				"_all",
+				"styles/partials/_all.scss"
+			],
+			[
+				"var",
+				"styles/modules/_varibles.scss"
+			],
+			[
+				"modu",
+				"styles/modules/_all.scss"
+			],
+			[
+				"mailsc",
+				"components/fs-mail-container/fs-mail-container.scss"
+			],
+			[
+				"typo",
+				"styles/_typography.scss"
+			],
+			[
+				"ty",
+				"styles/_typography.scss"
+			],
+			[
+				"fs-input",
+				"components/fs-input/fs-input.scss"
+			],
+			[
+				"res",
+				"styles/_reset.scss"
+			],
+			[
+				"reset",
+				"styles/_reset.scss"
+			],
+			[
+				"head",
+				"styles/_header.scss"
+			],
+			[
+				"paper-bu",
+				"bower_components/paper-button/paper-button.html"
+			],
+			[
+				"fs-bu",
+				"components/fs-button/fs-button.scss"
+			],
+			[
+				"personaindex",
+				"app/views/personal_equipments/index.html.slim"
+			],
+			[
+				"contarindes",
+				"app/views/contracts/index.html.slim"
+			],
+			[
+				"contat",
+				"app/assets/stylesheets/contracts.scss"
+			],
+			[
+				"balance.sc",
+				"app/assets/stylesheets/balances.scss"
+			],
+			[
+				"massaservice",
+				"app/assets/stylesheets/massage_services.scss"
+			],
+			[
+				"massaservsche",
+				"app/views/massages_services/schedule.html.slim"
+			],
+			[
+				"massageserviind",
+				"app/views/massages_services/index.html.slim"
+			],
+			[
+				"balancesala",
+				"app/views/balances/salary.html.slim"
+			],
+			[
+				"roomequiinde",
+				"app/views/room_equipments/index.html.slim"
+			],
+			[
+				"massaserviinde",
+				"app/views/massages_services/index.html.slim"
+			],
+			[
+				"personequiinde",
+				"app/views/personal_equipments/index.html.slim"
+			],
+			[
+				"counseseind",
+				"app/views/counsel_sessions/index.html.slim"
+			],
+			[
+				"counseresind",
+				"app/views/counsel_reservations/index.html.slim"
+			],
+			[
+				"nav",
+				"app/assets/stylesheets/partials/_navbar.scss"
+			],
+			[
+				"appsl",
+				"app/views/layouts/application.html.slim"
+			],
+			[
+				"contracnew",
+				"app/views/contracts/new.html.slim"
+			],
+			[
+				"heade",
+				"app/views/customers/_header.html.slim"
+			],
+			[
+				"contacthead",
+				"app/views/contracts/_header.html.slim"
+			],
+			[
+				"rommins",
+				"app/views/rooms/rooming_status.html.slim"
+			],
+			[
+				"contindexs",
+				"app/views/contracts/index.html.slim"
+			],
+			[
+				"massaservinde",
+				"app/views/massages_services/index.html.slim"
+			],
+			[
+				"rooming",
+				"app/views/rooms/rooming_status.html.slim"
+			],
+			[
+				"externindeslim",
+				"app/views/external_services/index.html.slim"
+			],
+			[
+				"admin",
+				"app/views/layouts/_administration_header.html.slim"
+			],
+			[
+				"counselsessinde",
+				"app/views/counsel_sessions/index.html.slim"
+			],
+			[
+				"counsel_reslim",
+				"app/views/counsel_reservations/index.html.slim"
+			],
+			[
+				"counsel_head",
+				"app/views/counsel_reservations/_counsel_reservation_header.html.slim"
+			],
+			[
+				"counseslim",
+				"app/views/counsel_reservations/_counsel_reservation_header.html.slim"
+			],
+			[
+				"customhead",
+				"app/views/customers/_header.html.slim"
+			],
+			[
+				"balancsala",
+				"app/views/balances/salary.html.slim"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"rename_",
+				"db/migrate/20150529095143_rename_column_thursady_to_thursday_for_table_external_services.rb"
+			],
+			[
+				"rename_col",
+				"db/migrate/20150529081955_rename_column_thursady_in_external_services.rb"
+			],
+			[
+				"pop",
+				"app/assets/stylesheets/partials/_popup.scss"
+			],
+			[
+				"button",
+				"app/assets/stylesheets/partials/form/_button.scss"
+			],
+			[
+				"text",
+				"app/assets/stylesheets/partials/form/_textfield.scss"
+			],
+			[
+				"form.scss",
+				"app/assets/stylesheets/partials/form/_form.scss"
+			],
+			[
+				"bit",
+				"app/assets/stylesheets/modules/_bit.scss"
+			],
+			[
+				"rig",
+				"app/assets/stylesheets/rights.css.scss"
+			],
+			[
+				"sele",
+				"app/assets/stylesheets/partials/form/_select.scss"
+			],
+			[
+				"bal",
+				"app/views/balances/_sale.html.slim"
+			],
+			[
+				"check",
+				"app/assets/stylesheets/partials/form/_checkbox.scss"
+			],
+			[
+				"formscs",
+				"app/assets/stylesheets/partials/form/_form.scss"
+			],
+			[
+				"font",
+				"app/assets/stylesheets/partials/font.scss"
+			],
+			[
+				"roomsc",
+				"app/assets/stylesheets/rooms.scss"
+			],
+			[
+				"room",
+				"app/views/rooms/index.html.slim"
+			],
+			[
+				"roomscs",
+				"app/assets/stylesheets/rooms.scss"
+			],
+			[
+				"room_he",
+				"app/helpers/rooms_helper.rb"
+			],
+			[
+				"help",
+				"app/helpers/rooms_helper.rb"
+			],
+			[
+				"roomcss",
+				"app/assets/stylesheets/rooms.scss"
+			],
+			[
+				"roominde",
+				"app/views/rooms/index.html.slim"
+			],
+			[
+				"side",
+				"app/assets/stylesheets/partials/_sidebar.scss"
+			],
+			[
+				"bad",
+				"app/assets/stylesheets/partials/_badge.scss"
+			],
+			[
+				"badg",
+				"app/assets/stylesheets/partials/_badge.scss"
+			],
+			[
+				"badge",
+				"app/assets/stylesheets/partials/_badge.scss"
+			],
+			[
+				"style",
+				"vendor/assets/stylesheets/style.min.css"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"sam",
+				"app/views/popup/_sample.slim"
+			],
+			[
+				"out",
+				"app/views/_outer_sidebar.html.slim"
+			],
+			[
+				"appsli",
+				"app/views/layouts/application.html.slim"
+			],
+			[
+				"defa",
+				"vendor/assets/stylesheets/default.css"
+			],
+			[
+				"data-",
+				"vendor/assets/stylesheets/data-table.css"
+			],
+			[
+				"fullca",
+				"vendor/assets/stylesheets/fullcalendar.css"
+			],
+			[
+				"field",
+				"app/assets/stylesheets/partials/form/_fieldset.scss"
+			],
+			[
+				"form.sc",
+				"app/assets/stylesheets/partials/form/_form.scss"
+			],
+			[
+				"log",
+				"app/assets/stylesheets/logins.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

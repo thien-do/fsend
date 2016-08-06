@@ -1,0 +1,50 @@
+paper-tabs {
+	height: 96px;
+	color: white;
+	box-shadow: inset 0 -1px 0 0 $white-divider;
+
+	font-size: $font-size-medium;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+	&::shadow #selectionBar {
+		height: 1px;
+		background-color: white;
+	}
+
+	paper-tab {
+		&::shadow #ink {
+			color: white;
+		}
+		&:not(.iron-selected)::shadow > .tab-content {
+			opacity: 0.4;
+		}
+	}
+
+	iron-icon {
+		width: 16px; height: 16px;
+		position: absolute;
+		top: 0; bottom: 0;
+		margin: auto;
+		left: -12px;;
+	}
+}
+
+// fix unsupported browsers
+.no-shadow-dom:not(#khongphaidangvuadau) {
+	.paper-tab-0 #ink.paper-tab {
+		color: white;
+	}
+	.paper-tabs-0 #selectionBar.paper-tabs {
+		height: 1px;
+		background-color: white;
+	}
+	paper-tab:not(.iron-selected) > .tab-content.paper-tab {
+		opacity: 0.4;
+	}
+	paper-tabs iron-icon.iron-icon-0 {
+		width: 16px;
+		height: 16px;
+	}
+}

@@ -1,0 +1,53 @@
+html {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: $black-hint;
+}
+
+// heading
+h1 {
+	font-weight: 300;
+	font-size: $font-size-xlarge;
+	line-height: 56px;
+	color: $primary-color;
+	margin-bottom: 16px;
+}
+
+h2 {
+	
+}
+
+// list
+ul {
+	font-size: $font-size-large;
+	line-height: 40px;
+	color: $black-secondary;
+
+	> li {
+		&:before {
+			content: "-";
+			width: 12px;
+			margin-right: 12px;
+			display: inline-block;
+			text-align: center;
+		}
+
+		&.li-link {
+			&:before {
+				content: "+";
+				color: $accent-color;
+			}
+		}
+	}
+}
+
+// link
+a {
+	text-decoration: none;
+	color: $accent-color;
+	box-shadow: 0 5px 0 0 transparent;
+	transition: box-shadow 0.2s;
+
+	&:hover {
+		box-shadow: 0 1px 0 0 rgba($accent-color, 0.5)
+	}
+}

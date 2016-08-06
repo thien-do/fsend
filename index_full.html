@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FSend</title>
+    <meta charset="utf-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script asyn="" src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link href="styles/app.css" rel="stylesheet" />
+    <link href="components/components.html" rel="import" />
+  </head>
+  <body unresolved="">
+    <header>
+      <a href="#"><img height="45" src="images/logo.svg" width="98" /></a>
+    </header>
+    <main>
+      <h1>
+        Gửi tập tin lớn<br />dễ dàng và miễn phí!
+      </h1>
+      <ul>
+        <li>
+          Gửi đến 4GB dữ liệu bất kỳ
+        </li>
+        <li>
+          Không cần đăng ký tài khoản
+        </li>
+        <li>
+          Không giới hạn tốc độ tải lên/tải xuống
+        </li>
+        <li class="li-link">
+          <a class="show-aside" href="#">Tìm hiểu thêm</a>
+        </li>
+      </ul>
+      <fs-mail-container>
+        <form class="form" data-goal="mail" data-send="wait" data-status="empty" id="main-form">
+          <fieldset id="files-fieldset">
+            <fs-button id="add-file-button">
+              <div class="empty-content">
+                <iron-icon icon="editor:attach-file"></iron-icon><span>chọn tập tin cần gửi (4gb)</span>
+              </div>
+              <div class="dirty-content">
+                <iron-icon icon="add"></iron-icon><span>thêm tập tin</span>
+              </div>
+              <div class="mail-dirty-content">
+                <span>thêm</span>
+              </div>
+            </fs-button>
+            <ul id="file-list"></ul>
+          </fieldset>
+          <fieldset id="goal-email-fieldset">
+            <fieldset id="goal-fieldset">
+              <fs-radio-button><input checked="" id="goal-mail" name="goal" type="radio" value="mail" /><label for="goal-mail">Gửi qua email</label></fs-radio-button><fs-radio-button><input id="goal-link" name="goal" type="radio" value="link" /><label for="goal-link">Lấy liên kết</label></fs-radio-button>
+            </fieldset>
+            <fieldset id="email-fieldset">
+              <fs-input id="from-email-input"><label>Từ:</label><input placeholder="Nhập email của bạn" type="text" /></fs-input><fs-input id="to-email-input"><label>Đến:</label><input placeholder="Nhập email người nhận" type="text" /></fs-input><fs-input><label>Lời nhắn:</label><input placeholder="" type="text" /></fs-input>
+            </fieldset>
+          </fieldset>
+          <fieldset id="summary-fieldset">
+            <p>
+              Còn: 2:30:21
+            </p>
+            <p>
+              <b>123kb/s</b>
+            </p>
+          </fieldset>
+          <fieldset id="error-fieldset"></fieldset>
+          <fieldset id="term-fieldset">
+            <p>
+              Việc sử dụng dịch vụ này có nghĩa bạn<br />đã đọc và đồng ý <a class="show-aside" href="#">điều khoản</a><br />sử dụng fsend.vn				
+            </p>
+          </fieldset>
+        </form>
+        <fs-button data-status="waiting" id="submit-button">
+          <div class="waiting-content">
+            <iron-icon icon="send"></iron-icon>gửi
+          </div>
+          <div class="sending-content">
+            đang gửi
+          </div>
+        </fs-button>
+        <script src="scripts/form.js"></script>
+      </fs-mail-container>
+      <div class="hide" id="finish-message">
+        <iron-icon icon="check"></iron-icon>
+        <p>
+          Đã gửi 15 tập tin tới<br>abc@gmail.com
+        </p>
+        <a href="#" id="reload-link">Gửi tiếp</a>
+      </div>
+    </main>
+    <aside>
+      <div class="container">
+        <main><paper-tabs selected="3"><paper-tab class="hide-aside-link"><iron-icon icon="arrow-back"></iron-icon>quay lại</paper-tab><paper-tab>giới thiệu</paper-tab><paper-tab>gói cước</paper-tab><paper-tab>hỏi đáp</paper-tab><paper-tab>điều khoản</paper-tab><paper-tab>tin tức</paper-tab><paper-tab>liên hệ</paper-tab></paper-tabs><iron-pages selected="3">
+            <div></div>
+            <div class="about">
+              <p>
+                Fsend là dịch vụ chuyển file dung lượng lớn miễn phí hàng đầu Việt Nam với nền tảng công nghệ điện toán đám mây (Cloud computing) cho phép người dùng gửi những file dung lượng lớn với tốc độ cao và an toàn thông qua email để chia sẻ dữ liệu với khách hàng, bạn bè, gia đình.
+              </p>
+              <p>
+                Fsend tự hào mang đến trải nghiệm tuyệt vời với những ưu điểm sau:
+              </p>
+              <ul>
+                <li>
+                  Là giải pháp chia sẻ file dung lượng lớn với tốc độ cao và an toàn.
+                </li>
+                <li>
+                  Dễ sử dụng và tiện lợi.       
+                </li>
+                <li>
+                  Đơn giản, nhanh chóng, hiệu quả.
+                </li>
+              </ul>
+            </div>
+            <div>
+              2
+            </div>
+            <div class="faq-page">
+              <dl>
+                <dt>
+                  #1 Lorem ipsum dolor sit amet, consectetur adipiscing.
+                </dt>
+                <dd>
+                  Curabitur imperdiet finibus dolor a vulputate. Maecenas semper sem ut orci placerat condimentum. Sed scelerisque blandit lectus at ultrices. Sed fermentum, erat eu tempus pharetra.
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  #2 Suspendisse mattis mauris ac tellus convallis, ac iaculis dui porttitor. Donec tempor porta.
+                </dt>
+                <dd>
+                  Vestibulum pretium mi id luctus dictum. Aenean dictum odio neque, et pulvinar justo sodales malesuada. Quisque quis risus suscipit, semper quam eget, interdum nisi. Maecenas ac massa eu augue viverra viverra eget quis mi.
+                </dd>
+              </dl>
+            </div>
+            <div>
+              4
+            </div>
+            <div>
+              5
+            </div>
+            <div>
+              <p>
+                Liên hệ với Fsend để được hỗ trợ với các vấn đề kỹ thuật và thanh toán, quảng cáo, câu hỏi, hoặc các thông tin chung:
+              </p>
+              <p>
+                <b>Liên hệ trực tiếp </b>
+              </p>
+              <p>
+                Nếu quý khách muốn được hỗ trợ trực tiếp, vui lòng gọi số (84-4) 7300 8888/(84-8) 7300 8888 hoặc Email: hotro@fsend.vn để được hỗ trợ.  Fsend.vn  Tòa nhà FPT Tân Thuận, Lô 29B-31B-33B, Đường Tân Thuận, KCX Tân Thuận, Phường Tân Thuận Đông, Quận 7, Tp.Hồ Chí Minh
+              </p>
+            </div>
+          </iron-pages></main>
+      </div>
+    </aside>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

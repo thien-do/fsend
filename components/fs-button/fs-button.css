@@ -1,0 +1,59 @@
+:host {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #F5F5F5;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+  padding: 0 16px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase; }
+  :host ::content iron-icon {
+    position: static;
+    width: 16px;
+    height: 16px;
+    margin: -2px auto auto 8px; }
+
+:host(.primary-color),
+:host(.accent-color) {
+  color: white;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.12), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12); }
+
+:host(.primary-color) {
+  background-color: #2196F3; }
+
+:host(.accent-color) {
+  background-color: #FF4081; }
+
+:host(.full-width) {
+  width: 100%;
+  display: block; }
+  :host(.full-width) ::content iron-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto; }
+
+:host(.large-height) {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12), 0px 0px 2px 0px rgba(0, 0, 0, 0.26);
+  border-radius: 4px;
+  font-size: 21px;
+  line-height: 56px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12); }
+  :host(.large-height) ::content iron-icon {
+    width: 24px;
+    height: 24px;
+    left: 20px; }
+
+/*# sourceMappingURL=fs-button.css.map */

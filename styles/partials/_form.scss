@@ -1,0 +1,269 @@
+@import "button";
+
+form {
+	height: 365px !important;
+	fieldset {
+		box-shadow: inset 0 -1px 0 0 $black-divider;
+		position: relative;
+	}
+
+	#files-fieldset {
+		box-shadow: none;
+
+		transition: background-color 0.6s;
+		&.invalid {
+			background-color: rgba(#F44336, 0.12);
+		}
+
+		#add-file-button {
+			@extend fs-button.full-width;
+			@extend fs-button.primary-color;
+
+			position: absolute;
+			top: 0; right: 0;
+			z-index: 1;
+
+			// animation
+			will-change: width;
+			transition: width 0.6s;
+			white-space: nowrap;
+		}
+		#file-list {
+			// reset
+			display: block;
+			line-height: 1;
+			font-size: 0;
+			z-index: 0;
+
+			padding-bottom: 8px;
+			overflow: scroll;
+
+			transition: padding-top 0.6s;
+
+			> li {
+				display: block;
+				position: relative;
+				margin-bottom: 8px;
+				// margin-right: 8px;
+				
+				&:before {
+					content: none;
+				}
+
+				height: 36px;
+				transition: margin-bottom 0.6s,
+							height 0.6s;
+
+				&.init {
+					margin-bottom: 0;
+					height: 0;
+					// visibility: hidden;
+				}
+
+				paper-progress {
+					position: absolute;
+					pointer-events: none;
+					width: 100%; height: 2px;
+					bottom: 0; left: 0;
+					z-index: 1;
+
+					border-radius: 2px;
+					overflow: hidden;
+
+					&::shadow {
+						#progressContainer {
+							background-color: transparent;
+						}
+						#activeProgress {
+							background-color: $primary-color;
+							transition: transform 0.6s;
+						}
+					}
+
+					&[value="100"] + fs-button {
+						pointer-events: none;
+						iron-icon {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#goal-email-fieldset {
+		position: absolute;
+		top: 68px; left: 0;
+
+		width: 100%;
+		padding: 0 16px;
+		background-color: white;
+
+		will-change: transform;
+		transition: transform 0.6s;
+
+		box-shadow: none;
+	}
+
+	#goal-fieldset {
+		fs-radio-button {
+			width: 50%;
+		}
+		box-shadow: 0 -1px 0 0 $black-divider,
+					inset 0 -1px 0 0 $black-divider;
+	}
+
+	#email-fieldset {
+		box-shadow: none;
+	}
+
+	#term-fieldset,
+	#summary-fieldset,
+	#error-fieldset {
+		z-index: 1;
+		box-shadow: none;
+
+		position: absolute;
+		bottom: 48px;
+		left: 0;
+		width: 100%;
+
+		color: $black-secondary;
+		text-align: center;
+	}
+
+	#term-fieldset,
+	#error-fieldset {
+		p {
+			font-size: $font-size-small;
+			line-height: 14px;
+			text-align: center;
+		}
+	}
+
+	#summary-fieldset {
+		display: none;
+		box-shadow: 0 -1px 0 0 $black-divider;
+		padding-top: 14px;
+
+		p {
+			margin-bottom: 8px;
+			b {
+				color: $primary-color;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	#error-fieldset {
+		z-index: 3;
+		background-color: white;
+		height: 42px;
+		display: none;
+
+		p {
+			// color: $accent-color;
+		}
+
+		&.show {
+			display: block;
+		}
+	}
+}
+
+#submit-button {
+	@extend fs-button.full-width;
+	@extend fs-button.accent-color;
+	@extend fs-button.large-height;
+
+	@each $status in sending, waiting {
+		&:not([data-status=#{$status}]) {
+			.#{$status}-content {
+				display: none;
+			}
+		}
+	}
+
+	&[data-status="sending"] {
+		pointer-events: none;
+		cursor: default;
+	}
+}
+
+// show hide content base on form goal
+.mail-dirty-content {
+	display: none;
+}
+form[data-goal="mail"][data-status="dirty"] {
+	#add-file-button {
+		width: 64px !important;
+		> div {
+			display: none;
+		}
+		> .mail-dirty-content {
+			display: block;
+		}
+	}
+}
+form[data-goal="mail"] {
+	#file-list {
+		padding-top: 0;
+		height: 36px + 16px;
+	}
+}	
+form[data-goal="link"] {
+	#file-list {
+		height: 196px;
+		padding-top: 36px + 8px;
+	}
+	#email-fieldset {
+		visibility: hidden;
+	}
+	#goal-email-fieldset {
+		transform: translateY(144px);
+	}
+}
+
+// show hide content base on form status
+@each $status in empty, dirty {
+	form:not([data-status=#{$status}]) {
+		.#{$status}-content {
+			display: none;
+		}
+	}
+}
+
+// data send
+form[data-send="sending"]:not(#khongphaidangvuadau) {
+	#files-fieldset {
+		#add-file-button {
+			display: none;
+		}
+		#file-list {
+			padding-top: 0;
+			height: 196px + 48px;
+			li {
+				fs-button {
+					display: block;
+					text-align: left;
+
+					iron-icon {
+						position: absolute;
+						top: 12px;
+						right: 12px;
+					}
+				}
+			}
+		}
+	}
+	#goal-email-fieldset,
+	#term-fieldset {
+		display: none;
+	}
+	#summary-fieldset {
+		display: block;
+	}
+}

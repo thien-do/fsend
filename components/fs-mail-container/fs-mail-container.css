@@ -1,0 +1,94 @@
+:host {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 392px;
+  height: 472px; }
+  :host #spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    margin: -14px 0 0 -14px;
+    --paper-spinner-layer-1-color: var(--paper-blue-500);
+    --paper-spinner-layer-2-color: var(--paper-blue-500);
+    --paper-spinner-layer-3-color: var(--paper-blue-500);
+    --paper-spinner-layer-4-color: var(--paper-blue-500); }
+  :host #content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%; }
+    :host #content #back, :host #content #front, :host #content #form, :host #content #submit {
+      position: absolute;
+      width: 100%;
+      left: 0; }
+    :host #content #back, :host #content #front {
+      bottom: 0;
+      background-size: cover; }
+    :host #content #back {
+      height: 342px;
+      background-image: url("images/mail-back@2x.png");
+      z-index: 0; }
+    :host #content #front {
+      height: 342px;
+      background-image: url("images/mail-front@2x.png");
+      z-index: 2;
+      pointer-events: none; }
+    :host #content #form {
+      bottom: 94px;
+      z-index: 1; }
+      :host #content #form ::content form {
+        position: relative;
+        margin: auto;
+        width: 352px;
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.12);
+        border-radius: 2px;
+        padding: 16px 16px 48px; }
+    :host #content #submit {
+      bottom: -8px;
+      z-index: 3; }
+      :host #content #submit ::content #submit-button {
+        width: 160px; }
+
+:host #content {
+  opacity: 0;
+  -webkit-transform: translateY(20%);
+      -ms-transform: translateY(20%);
+          transform: translateY(20%);
+  -webkit-transition: -webkit-transform 0.6s, opacity 0.6s;
+          transition: transform 0.6s, opacity 0.6s;
+  will-change: transform, opacity; }
+:host #form {
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  -webkit-transition: -webkit-transform 0.6s;
+          transition: transform 0.6s;
+  will-change: transform; }
+
+:host(.show) #content {
+  opacity: 1;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none; }
+:host(.show) #form {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none; }
+
+:host(.animateOut) {
+  pointer-events: none; }
+  :host(.animateOut) #content {
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    opacity: 0; }
+  :host(.animateOut) #form {
+    -webkit-transform: translateY(30%);
+        -ms-transform: translateY(30%);
+            transform: translateY(30%); }
+
+/*# sourceMappingURL=fs-mail-container.css.map */

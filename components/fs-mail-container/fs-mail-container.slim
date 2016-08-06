@@ -1,0 +1,36 @@
+link rel="import" href="../../bower_components/polymer/polymer.html"
+
+dom-module#fs-mail-container
+	link rel="import" type="css" href="fs-mail-container.css"
+	template
+		paper-spinner#spinner active=""
+		#content
+			#back
+			#form
+				content select="form"
+			#front
+			#submit
+				content select="#submit-button"
+
+javascript:
+	Polymer({
+		is: "fs-mail-container",
+		ready: function(event) {
+			//this.querySelector("#submit-button").classList.add("full-width", "accent-color", "large-height");
+			//this.querySelector("#add-button").classList.add("full-width", "primary-color");
+		},
+		animateIn: function(event) {
+			host = this;
+			host.$.spinner.removeAttribute("active");
+			setTimeout(function(){
+				host.classList.add("show");
+			}, 200);
+		},
+		animateOut: function(event) {
+			host = this;
+			// host.$.spinner.removeAttribute("active");
+			setTimeout(function(){
+				host.classList.add("animateOut");
+			}, 1000);
+		}
+	});
